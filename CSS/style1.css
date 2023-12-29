@@ -1,0 +1,107 @@
+/** BEGIN OF NAVBAR ********************************************************************/
+#city {
+    color: white;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.nav-link {
+    color: lightgray;
+    font-size: 18px;
+    text-align: right;
+}
+
+.navbar .navbar-nav a:last-child{
+    color: #1fff17;
+}
+/** END OF NAVBAR ********************************************************************/
+
+/** BEGIN OF purchase request *******************************************************/
+div#solicitud-compra{
+    margin:auto;
+    width: 960px;
+}
+/** BEGIN OF COSTOS ********************************************************************/
+.costos .container-costos {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+.costos .container-costos .card {
+    align-items: center;
+    border-color: red;
+}
+
+
+.costos .card-title-vent {
+    text-align:center;
+}
+/** END OF COSTOS ********************************************************************/
+
+/**  BEGIN OF FORM CLIENT ********************************************************************/
+/*.idform {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;   
+    text-align:center;
+}*/
+/**  END OF FORM CLIENT ********************************************************************/
+
+/**  BEGIN OF PROCESS ********************************************************************/
+.total_a_pagar {
+    border-style:none;   
+    border-radius: 5px;
+    background-color: lightblue;
+    color: black;
+    padding:20px;
+}
+.btnLimpiar {
+    width:460px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    background: lightsalmon;
+    color:black;
+}
+.btnProcesar {
+    width:460px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    background: blue;
+    color:white;
+}
+/**  END OF PROCESS ********************************************************************/
+
+/** END OF purchase request *******************************************************/
+
+/** BEGIN OF FOOTER *****************************************************************************/
+footer{
+    background-color: rgb(10, 10, 134);
+    color:white;
+    height:120px;
+}
+
+.footer .container-footer {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container-footer a {
+    text-decoration: none;
+    color: white;
+    padding: 3rem 0;
+    width: 100px;
+    text-align: center;
+}
+
+.footer .container-footer a:hover {
+    color: yellow;
+}
+/** END OF FOOTER   *****************************************************************************/
+

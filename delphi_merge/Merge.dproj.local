@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/10/05 13:41:58.000.890,=C:\Users\ecomas.CITEDEF\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2023/12/22 11:43:22.000.008,=C:\Users\ecomas.CITEDEF\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2023/12/27 13:24:57.000.142,=C:\Users\ecomas.CITEDEF\Documents\Embarcadero\Studio\Projects\Unit10.pas</Transaction>
+    <Transaction>2023/12/27 13:25:20.000.173,C:\Users\ecomas.CITEDEF\Documents\Embarcadero\Studio\Projects\Unit10.pas=E:\www_tupa\merge\UnitMerge.pas</Transaction>
+    <Transaction>2023/12/27 13:25:20.000.173,C:\Users\ecomas.CITEDEF\Documents\Embarcadero\Studio\Projects\Unit10.dfm=E:\www_tupa\merge\UnitMerge.dfm</Transaction>
+    <Transaction>2023/12/27 13:25:45.000.056,C:\Users\ecomas.CITEDEF\Documents\Embarcadero\Studio\Projects\Project12.dproj=E:\www_tupa\merge\Merge.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

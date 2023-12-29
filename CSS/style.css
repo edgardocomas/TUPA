@@ -1,0 +1,253 @@
+/** BEGIN OF NAVBAR ********************************************************************/
+#descrip {
+    color: rgb(255, 255, 0);
+    font-size: 28px;
+    font-style: italic;
+}
+
+#descrip-1 {
+    color: rgb(0, 191, 255);
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.nav-link {
+    color: rgb(53, 248, 5);
+    font-size: 18px;
+    text-align: right;
+}
+
+.navbar .navbar-nav a:last-child{
+    color: #1fff17;
+}
+/** END OF NAVBAR ********************************************************************/
+
+
+/** BEGIN OF BSASINFO ********************************************************************/
+.card-img {
+     filter:brightness(120%);
+      
+}
+
+.card-title {
+    color: white;
+    font-size: 42px;
+    text-align: right;
+}
+
+.card-title-1 {
+    color: yellow;
+    font-size: 20px;
+    text-align: right;
+}
+
+.card-text {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* determina la posicion de los botones */
+.bsasinfo .keypad {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bsasinfo .btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+.bsasinfo .btn-transparent {
+    border: 2px solid gray;
+    color: yellow;
+}
+
+/*  
+.bsasinfo .btn-transparent:hover {
+    background-color: rgba(255, 255, 255, .55);
+    color: rgb(152, 41, 41);
+    border: 1px solid rgba(255, 255, 255, .55);
+    transition: 0.5s;
+}
+*/
+.bsasinfo .btn-solid {
+    background-color: rgb(254, 255, 254);
+    color: #001aff;
+    border: 2px solid rgb(253, 4, 4);
+}
+/*  
+.bsasinfo .btn-solid:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}*/
+
+
+/** END OF BSASINFO ********************************************************************/
+
+/** BEGIN OF SPEAKERS ********************************************************************/
+.speakers .title {
+    text-align: center;
+}
+
+.speakers .container-speakers {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card .skills {
+    margin-top: 1rem;
+    display: flex;
+}
+  
+.card .skills h6 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.3rem;
+    text-align: center;
+}
+  
+.card .skills .yellow {
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.card .skills .cyan {
+    background-color: rgb(17, 0, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.card .skills .grey {
+    background-color: rgb(233, 96, 5);
+    color: white;
+    border-radius: 5px;
+}
+  
+.card .skills .magenta {
+    background-color: rgb(253, 0, 55);
+    color: white;
+    border-radius: 5px;
+}
+/** END OF SPEAKERS ********************************************************************/
+
+.container-s1 {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.container-s1 .s1-body {
+    background-color: rgb(75, 74, 74);
+    color: white;
+    padding: 1rem;
+}
+
+.container-s1 .btn-transparent {
+    border: 1px solid white;
+    color: yellow;
+}
+  
+.container-s1 .btn-transparent:hover {
+    background-color: rgba(255, 255, 255, .55);
+    color: blueviolet;
+    border: 1px solid rgba(255, 255, 255, .55);
+    transition: 0.5s;
+}
+
+/** BEGIN OF FORM *****************************************************************************/
+.form .container-form {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.form .title h3 {
+    font-size: 1rem;
+}
+
+.form .container-form .input-about {
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form .container-form .input-name {
+    width: 48%;
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form .container-form .first-last-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.form .container-form .btn-submit {
+    width: 100%;
+    margin: 0;
+    padding: 0.8rem 0;
+    font-size: 1.5rem;
+    background-color: rgba(10, 131, 36, 0.8);
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+/** ENd OF FORM   *****************************************************************************/
+
+
+/** BEGIN OF FOOTER *****************************************************************************/
+footer{
+    background-color: rgb(10, 10, 134);
+    color:white;
+    height:120px;
+}
+
+.footer .container-footer {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container-footer a {
+    text-decoration: none;
+    color: white;
+    padding: 3rem 0;
+    width: 100px;
+    text-align: center;
+}
+
+.footer .container-footer a:hover {
+    color: yellow;
+}
+/** END OF FOOTER   *****************************************************************************/
+
